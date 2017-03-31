@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="Home"/>
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_menu_invite"
+            android:title="My Profile"/>
+        <item
+            android:id="@+id/nav_interview"
+            android:icon="@drawable/interview"
+            android:title="Interview"/>
+        <item
+            android:id="@+id/nav_match_making"
+            android:icon="@drawable/ic_menu_cut_holo_light"
+            android:title="Matchmaking"/>
+        <item
+            android:id="@+id/nav_training"
+            android:icon="@drawable/training"
+            android:title="Traning"/>
+        <item
+            android:id="@+id/nav_stipend"
+            android:icon="@drawable/stipen"
+            android:title="Pay Stipend"/>
+        <item
+            android:id="@+id/nav_proj_rep"
+            android:icon="@drawable/ic_menu_agenda"
+            android:title="Add Project Reports"/>
+        <item
+            android:id="@+id/nav_certificate"
+            android:icon="@drawable/ic_menu_paste_holo_light"
+            android:title="Issue Certificate"/>
+        <item
+            android:id="@+id/nav_placement"
+            android:icon="@drawable/ic_menu_allfriends"
+            android:title="Placement news"/>
+        <item
+            android:id="@+id/nav_signout"
+            android:icon="@drawable/signout"
+            android:title="Logout" />
+    </group>
+
+    <item android:title="INFO">
+        <menu>
+            <item
+                android:id="@+id/nav_test"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="Share"/>
+        </menu>
+    </item>
+
+</menu>

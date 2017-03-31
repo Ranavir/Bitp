@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:fitsSystemWindows="true"
+              android:orientation="vertical"
+              android:background="@drawable/screenbg">
+    <include
+        layout="@layout/app_bar"/>
+
+        <TextView
+            android:id="@+id/urlTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold"
+            android:textColor="#ffffff" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IP ADDRESS :"
+            android:textColor="#ffffff"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginLeft="10dp"/>
+
+        <!--<EditText
+            android:id="@+id/ipAddr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_margin="10dp"
+            android:inputType="phone" >
+
+            <requestFocus />
+        </EditText>-->
+        <EditText
+            android:id="@+id/ipAddr"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="@dimen/margin8"
+            android:layout_marginLeft="@dimen/margin30"
+            android:layout_marginRight="@dimen/margin30"
+            android:layout_marginBottom="@dimen/margin30"
+            android:ems="10"
+            android:gravity="center"
+            android:textCursorDrawable="@null"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:background="@drawable/edittext_border">
+            <requestFocus />
+        </EditText>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PORT NUMBER"
+            android:textColor="#ffffff"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginLeft="10dp"/>
+
+        <!--<EditText
+            android:id="@+id/portNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_margin="10dp"
+            android:inputType="phone" />-->
+        <EditText
+            android:id="@+id/portNum"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="@dimen/margin8"
+            android:layout_marginLeft="@dimen/margin30"
+            android:layout_marginRight="@dimen/margin30"
+            android:ems="10"
+            android:gravity="center"
+            android:textCursorDrawable="@null"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:background="@drawable/edittext_border"
+            android:inputType="phone"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:layout_margin="10dp">
+            <Button
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:text="Save"
+                android:id="@+id/cuSaveBtn"
+                android:background="@drawable/layout_bg_selector"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:layout_marginTop="31dp"
+                android:layout_marginRight="5dp"/>
+            <Button
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:text="Close"
+                android:id="@+id/cuCloseBtn"
+                android:background="@drawable/layout_bg_selector"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:layout_marginTop="31dp"
+                android:layout_marginLeft="5dp"/>
+
+        </LinearLayout>
+
+
+</LinearLayout>

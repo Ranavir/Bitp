@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008ece</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#bb1869</color>
+    <color name="windowBackground">#e6568c</color>
+
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorSky">#6CCEF3</color>
+    <color name="borderSky">#0065A7</color>
+    <color name="colorHints">#7dcbf0</color>
+</resources>

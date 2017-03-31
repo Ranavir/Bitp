@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">BITP</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_test">TestActivity</string>
+
+    <!--Used in Splash Screen-->
+    <string name="title_activity_splash">SplashActivity</string>
+
+    <!--Used in Login Screen-->
+    <string name="messageToLoginLeft">Already have an account,&#160;</string>
+    <string name="messageToLogin">Login</string>
+    <string name="messageToLoginRight">&#160;using</string>
+    <string name="messageToRegisterLeft">Don\'t have account,&#160;</string>
+    <string name="messageToRegister">Register</string>
+    <string name="messageToRegisterRight">&#160;to BITP</string>
+
+    <!--Used in Register Screen-->
+    <string name="dd_prompt">DD</string>
+    <string name="mm_prompt">MM</string>
+    <string name="yyyy_prompt">YYYY</string>
+    <string name="state_prompt">STATES</string>
+    <string-array name="g_prefix">
+        <item>Mr.</item>
+        <item>Mrs</item>
+        <item>Miss</item>
+    </string-array>
+    <string-array name="castType">
+        <item>SC</item>
+        <item>ST</item>
+        <item>OBC</item>
+        <item>GEN</item>
+    </string-array>
+</resources>

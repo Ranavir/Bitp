@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+            android:background="@drawable/screenbg">
+
+<RelativeLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:id="@+id/msgLayout"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Add Trainee"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/colorSky"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/trainingLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@+id/msgLayout"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/margin30"
+        android:layout_marginRight="@dimen/margin30">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/register_padding_top"
+            android:layout_gravity="center"
+            android:text="Training"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/register_text_size1"
+            android:layout_weight="0.5"/>
+
+
+        <Spinner
+            android:id="@+id/spinnerTraining"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/register_text_size1"
+            android:textStyle="bold"
+            android:background="@drawable/gradient_spinner"
+            android:spinnerMode="dropdown"
+            android:layout_gravity="center"
+            android:minWidth="100dp"
+            android:minHeight="40dp"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/notificationLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@+id/trainingLayout"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/margin30"
+        android:layout_marginRight="@dimen/margin30">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/register_padding_top"
+            android:layout_gravity="center"
+            android:text="Notification"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/register_text_size1"
+            android:layout_weight="0.5"/>
+
+
+        <Spinner
+            android:id="@+id/spinnerNotification"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/register_text_size1"
+            android:textStyle="bold"
+            android:background="@drawable/gradient_spinner"
+            android:spinnerMode="dropdown"
+            android:layout_gravity="center"
+            android:minWidth="100dp"
+            android:minHeight="40dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@+id/notificationLayout">
+
+
+
+        <Button
+            android:id="@+id/btnAddTrainees"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add All Selected Trainees From Notification"
+            android:background="@drawable/layout_bg_selector"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginTop="31dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+</ScrollView>
